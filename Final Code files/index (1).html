@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omkar Purav | Software Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!-- NOISE OVERLAY -->
+    <div class="noise"></div>
+
+    <!-- CURSOR GLOW -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ═══════════ NAVBAR ═══════════ -->
+    <nav class="nav" id="navbar">
+      <a href="#home" class="logo">OP<span class="logo-dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="mailto:spuravomkar@gmail.com" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#experience" class="mobile-link">Experience</a></li>
+        <li><a href="#certificates" class="mobile-link">Certificates</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- ═══════════ HOME ═══════════ -->
+    <section id="home" class="section home-section">
+      <div class="home-bg-text">DEV</div>
+      <div class="home-content">
+        <div class="home-tag reveal">Available for opportunities</div>
+        <h1 class="home-name reveal delay-1">
+          Omkar<br /><span class="name-accent">Purav</span>
+        </h1>
+        <p class="home-role reveal delay-2">
+          <span class="role-line"></span>Aspiring Software Developer
+        </p>
+        <p class="home-desc reveal delay-3">
+          Computer Engineering student passionate about building web applications,
+          exploring cloud technologies, and solving real-world problems with clean, efficient code.
+        </p>
+        <div class="home-actions reveal delay-4">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="#skills" class="btn btn-ghost">View my work ↓</a>
+        </div>
+        <div class="home-socials reveal delay-5">
+          <a href="https://github.com/JohnFarlander" target="_blank" class="social-link">GH</a>
+          <a href="https://www.linkedin.com/in/omkar-purav-10a10336a/" target="_blank" class="social-link">LI</a>
+          <a href="mailto:spuravomkar@gmail.com" class="social-link">EM</a>
+        </div>
+      </div>
+      <div class="home-image-wrap reveal delay-2">
+        <div class="image-frame">
+          <img src="images/profile.jpg" alt="Omkar Purav" class="profile-img" />
+          <div class="image-border"></div>
+        </div>
+        <div class="floating-badge badge-1">
+          <span class="badge-icon">⚡</span>
+          <span>Full Stack</span>
+        </div>
+        <div class="floating-badge badge-2">
+          <span class="badge-icon">☁️</span>
+          <span>AWS</span>
+        </div>
+        <div class="floating-badge badge-3">
+          <span class="badge-icon">🤖</span>
+          <span>ML</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ ABOUT ═══════════ -->
+    <section id="about" class="section about-section">
+      <div class="section-label reveal">01 — About</div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2 class="section-title">Crafting digital<br /><em>experiences</em></h2>
+          <p class="about-text">
+            I'm a Computer Engineering student with a deep interest in building
+            scalable, meaningful software. My journey spans from low-level C/C++
+            programming to cloud-native development on AWS — always learning, always building.
+          </p>
+          <p class="about-text">
+            Beyond code, I dabble in digital art with Procreate and believe that
+            design sensibility makes better developers.
+          </p>
+        </div>
+        <div class="about-right reveal delay-1">
+          <div class="info-block">
+            <div class="info-item">
+              <span class="info-label">Education</span>
+              <span class="info-value">Computer Engineering</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Interests</span>
+              <span class="info-value">ML · IoT · Cloud Computing</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Goal</span>
+              <span class="info-value">Full-Stack Developer</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Location</span>
+              <span class="info-value">India</span>
+            </div>
+          </div>
+          <div class="stat-row">
+            <div class="stat">
+              <span class="stat-num">8+</span>
+              <span class="stat-text">Certificates</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">9+</span>
+              <span class="stat-text">Skills</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">2+</span>
+              <span class="stat-text">Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ SKILLS ═══════════ -->
+    <section id="skills" class="section skills-section">
+      <div class="section-label reveal">02 — Skills</div>
+      <h2 class="section-title reveal">Technology <em>stack</em></h2>
+
+      <div class="skills-categories">
+
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Frontend</h3>
+          <div class="skill-pills">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal delay-1">
+          <h3 class="skill-group-title">Languages</h3>
+          <div class="skill-pills">
+            <span class="pill">C</span>
+            <span class="pill">C++</span>
+            <span class="pill">Python</span>
+            <span class="pill">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal delay-2">
+          <h3 class="skill-group-title">Cloud &amp; Tools</h3>
+          <div class="skill-pills">
+            <span class="pill pill-accent">AWS</span>
+            <span class="pill">Git</span>
+            <span class="pill">GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal delay-3">
+          <h3 class="skill-group-title">Concepts</h3>
+          <div class="skill-pills">
+            <span class="pill">DSA</span>
+            <span class="pill pill-accent">Machine Learning</span>
+            <span class="pill">IoT</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal delay-4">
+          <h3 class="skill-group-title">Creative</h3>
+          <div class="skill-pills">
+            <span class="pill">Procreate</span>
+            <span class="pill">UI Design</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════ EXPERIENCE ═══════════ -->
+    <section id="experience" class="section experience-section">
+      <div class="section-label reveal">03 — Experience</div>
+      <h2 class="section-title reveal">Where I've <em>worked</em></h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Intern</h3>
+              <span class="timeline-badge">Cybersecurity</span>
+            </div>
+            <p class="timeline-company">Deepcytes Cyber Labs <span class="timeline-location">· UK</span></p>
+            <p class="timeline-desc">
+              Gained hands-on experience in a professional cybersecurity environment.
+              Contributed to real-world projects and developed an understanding of
+              security-conscious software practices.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Personal Projects</h3>
+              <span class="timeline-badge">Development</span>
+            </div>
+            <p class="timeline-company">Self-initiated</p>
+            <p class="timeline-desc">
+              Built a personal blog platform and designed a complete portfolio website
+              for a local business — handling everything from design to deployment.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════ CERTIFICATES ═══════════ -->
+    <section id="certificates" class="section certs-section">
+      <div class="section-label reveal">04 — Credentials</div>
+      <h2 class="section-title reveal">Certificates &amp; <em>recognition</em></h2>
+
+      <div class="cert-grid">
+        <div class="cert-card reveal"><img src="images/cert1.jpg" alt="Certificate 1" /><div class="cert-overlay"><span>View</span></div></div>
+        <div class="cert-card reveal delay-1"><img src="images/cert3.jpg" alt="Certificate 2" /><div class="cert-overlay"><span>View</span></div></div>
+        <div class="cert-card reveal delay-2"><img src="images/cert2.jpg" alt="Certificate 3" /><div class="cert-overlay"><span>View</span></div></div>
+        <div class="cert-card reveal"><img src="images/cert4.jpg" alt="Certificate 4" /><div class="cert-overlay"><span>View</span></div></div>
+        <div class="cert-card reveal delay-1"><img src="images/cert5.jpg" alt="Certificate 5" /><div class="cert-overlay"><span>View</span></div></div>
+        <div class="cert-card reveal delay-2"><img src="images/cert8.jpg" alt="Certificate 6" /><div class="cert-overlay"><span>View</span></div></div>
+        <div class="cert-card reveal"><img src="images/cert6.jpg" alt="Certificate 7" /><div class="cert-overlay"><span>View</span></div></div>
+        <div class="cert-card reveal delay-1"><img src="images/cert7.jpg" alt="Certificate 8" /><div class="cert-overlay"><span>View</span></div></div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CONTACT ═══════════ -->
+    <section id="contact" class="section contact-section">
+      <div class="section-label reveal">05 — Contact</div>
+      <div class="contact-inner">
+        <h2 class="contact-heading reveal">Let's build something<br /><em>together.</em></h2>
+        <p class="contact-sub reveal delay-1">
+          Open to internships, collaborations, and full-time opportunities.
+          Drop me a line — I respond within 24 hours.
+        </p>
+        <a href="mailto:spuravomkar@gmail.com" class="contact-email reveal delay-2">
+          spuravomkar@gmail.com
+        </a>
+        <div class="contact-links reveal delay-3">
+          <a href="https://www.linkedin.com/in/omkar-purav-10a10336a/" target="_blank" class="contact-link">
+            <span class="cl-label">LinkedIn</span>
+            <span class="cl-arrow">↗</span>
+          </a>
+          <a href="https://github.com/JohnFarlander" target="_blank" class="contact-link">
+            <span class="cl-label">GitHub</span>
+            <span class="cl-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer class="footer">
+      <p>© 2026 Omkar Purav — Designed &amp; Built with care.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </footer>
+
+    <script>
+      // Cursor glow
+      const glow = document.getElementById('cursorGlow');
+      document.addEventListener('mousemove', e => {
+        glow.style.left = e.clientX + 'px';
+        glow.style.top  = e.clientY + 'px';
+      });
+
+      // Sticky nav shadow
+      const navbar = document.getElementById('navbar');
+      window.addEventListener('scroll', () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 40);
+      });
+
+      // Hamburger
+      const hamburger = document.getElementById('hamburger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('open');
+        mobileMenu.classList.toggle('open');
+      });
+      document.querySelectorAll('.mobile-link').forEach(link => {
+        link.addEventListener('click', () => {
+          hamburger.classList.remove('open');
+          mobileMenu.classList.remove('open');
+        });
+      });
+
+      // Scroll reveal
+      const revealEls = document.querySelectorAll('.reveal');
+      const observer  = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+      }, { threshold: 0.12 });
+      revealEls.forEach(el => observer.observe(el));
+
+      // Certificate lightbox
+      document.querySelectorAll('.cert-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const src = card.querySelector('img').src;
+          const lb  = document.createElement('div');
+          lb.className = 'lightbox';
+          lb.innerHTML = `<div class="lb-bg"></div><img src="${src}" alt="Certificate" /><button class="lb-close">&#x2715;</button>`;
+          document.body.appendChild(lb);
+          setTimeout(() => lb.classList.add('active'), 10);
+          lb.querySelector('.lb-bg').addEventListener('click', () => { lb.classList.remove('active'); setTimeout(() => lb.remove(), 300); });
+          lb.querySelector('.lb-close').addEventListener('click', () => { lb.classList.remove('active'); setTimeout(() => lb.remove(), 300); });
+        });
+      });
+    </script>
+  </body>
+</html>
